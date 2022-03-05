@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ExprEvaluator
+comment1.params=x
+comment1.target=void\ expressionOutput(double)
+comment2.params=
+comment2.target=void\ eval()
+comment2.text=Expressions\ are\ evaluated\ from\ right\ to\ left,\ using\ a\ stack\ A\ of\ arithmetic\r\n\ \ operators\ and\ a\ stack\ B\ of\ operands.\ In\ this\ method,\ a\ single\ operation\ is\r\n\ \ evaluated\ by\ popping\ the\ current\ operator\ from\ A,\ its\ 2\ operands\ from\ B,\ and\ by\ then\r\nperforming\ the\ operation\ and\ pushing\ the\ result\ onto\ B\ as\ a\ double\ value.
+comment3.params=
+comment3.target=void\ evalDown()
+comment3.text=\ In\ this\ method,\ a\ parenthesized\ subexpression\ is\r\n\ \ evaluated\ by\ evaluating\ its\ operations\ on\ Stack\ A\ top-down\r\n\ \ until\ a\ right\ parenthesis\ is\ encountered\ on\ stack\ A;\r\nthe\ right\ parenthesis\ is\ also\ popped\ from\ A
+comment4.params=token\ StackA
+comment4.target=boolean\ prec(char,\ Stack1gen)
+comment5.params=
+comment5.target=ExprEvaluator()
+comment6.params=ee
+comment6.target=ExprEvaluator(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getExpression()
+comment8.params=
+comment8.target=double\ formNum()
+comment9.params=
+comment9.target=double\ evaluator()
+numComments=10

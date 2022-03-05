@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ClockIcon
+comment1.params=xx\ yy\ ww\ hh\ mm\ cc
+comment1.target=ClockIcon(int,\ int,\ int,\ int,\ int,\ int)
+comment2.params=dx\ dy
+comment2.target=void\ translate(int,\ int)
+comment3.params=hour
+comment3.target=void\ setH(int)
+comment4.params=minute
+comment4.target=void\ setM(int)
+comment5.params=cnt
+comment5.target=void\ setC(int)
+comment6.params=g2
+comment6.target=void\ draw(java.awt.Graphics2D)
+numComments=7

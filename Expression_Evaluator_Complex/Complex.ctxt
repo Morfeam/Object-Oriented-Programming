@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Complex
+comment1.params=
+comment1.target=Complex()
+comment2.params=x\ y
+comment2.target=Complex(double,\ double)
+comment3.params=
+comment3.target=double\ getRe()
+comment4.params=x
+comment4.target=void\ setRe(double)
+comment5.params=
+comment5.target=double\ getIm()
+comment6.params=y
+comment6.target=void\ setIm(double)
+comment7.params=
+comment7.target=void\ complexPrint()
+comment8.params=z\ w
+comment8.target=Complex\ complexMult(Complex,\ Complex)
+numComments=9
